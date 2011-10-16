@@ -1,0 +1,24 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		
+	</ui:style>
+	<g:HTMLPanel>
+		<g:VerticalPanel>
+			<g:HorizontalPanel horizontalAlignment="ALIGN_CENTER">
+				<g:Label text="Name:" horizontalAlignment="ALIGN_CENTER"/>
+				<g:TextBox ui:field="nameTB"/>
+			</g:HorizontalPanel>
+			<g:HorizontalPanel>
+				<g:Label text="Description:"/>
+				<g:TextArea ui:field="descriptionTA"/>
+			</g:HorizontalPanel>
+		</g:VerticalPanel>
+		<g:HorizontalPanel>
+			<g:Label text="Keywords:"/>
+			<g:HorizontalPanel ui:field="suggestBoxPnl"/>
+		</g:HorizontalPanel>
+		<g:Button ui:field="saveBtn">Save</g:Button>
+	</g:HTMLPanel>
+</ui:UiBinder> 

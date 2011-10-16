@@ -1,0 +1,2 @@
+serviceClass: org.projectr.client.ProjectService
+path: C323DE825405137E51F5B23B32CDC6CB.gwt.rpc
